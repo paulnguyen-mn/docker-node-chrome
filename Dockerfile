@@ -6,4 +6,4 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
   && apt-get update -yqqq \
   && apt-get install -y google-chrome-stable > /dev/null 2>&1
 
-CMD ["node", "bash"]
+CMD ["node"]
